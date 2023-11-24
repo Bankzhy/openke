@@ -1,0 +1,10 @@
+10
+hasIdentifier 1
+relatedTo 2
+hasClass 3
+hasAttribute 4
+hasMethod 5
+extends 6
+implements 7
+hasSubWord 8
+hasProject 9
