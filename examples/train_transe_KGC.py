@@ -1,3 +1,5 @@
+import sys
+sys.path.append('..')
 import openke
 from openke.config import Trainer, Tester
 from openke.module.model import TransE
