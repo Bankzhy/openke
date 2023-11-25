@@ -1,4 +1,4 @@
-10
+45
 hasIdentifier 1
 relatedTo 2
 hasClass 3
@@ -8,3 +8,38 @@ extends 6
 implements 7
 hasSubWord 8
 hasProject 9
+Antonym 10
+AtLocation 11
+CapableOf 12
+Causes 13
+CausesDesire 14
+CreatedBy 15
+DefinedAs 16
+DerivedFrom 17
+Desires 18
+DistinctFrom 19
+Entails 20
+EtymologicallyDerivedFrom 21
+EtymologicallyRelatedTo 22
+FormOf 23
+HasA 24
+HasContext 25
+HasFirstSubevent 26
+HasLastSubevent 27
+HasPrerequisite 28
+HasProperty 29
+HasSubevent 30
+InstanceOf 31
+IsA 32
+LocatedNear 33
+MadeOf 34
+MannerOf 35
+MotivatedByGoal 36
+NotDesires 37
+NotHasProperty 38
+PartOf 39
+ReceivesAction 40
+SimilarTo 41
+Synonym 42
+UsedFor 43
+dbpedia 44
