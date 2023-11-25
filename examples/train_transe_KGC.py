@@ -2,21 +2,14 @@ import sys
 import os
 curPath = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 sys.path.append(curPath)
+print("当前的工作目录：",os.getcwd())
+print("python搜索模块的路径集合",sys.path)
 import openke
-# from openke.config import Trainer, Tester
-# from openke.module.model import TransE
-# from openke.module.loss import MarginLoss
-# from openke.module.strategy import NegativeSampling
-# from openke.data import TrainDataLoader, TestDataLoader
-import openke.config.Trainer
-import openke.config.Tester
-import openke.module.model.TransE
-import openke.module.loss.MarginLoss
-import openke.module.strategy.NegativeSampling
-import openke.data.TrainDataLoader
-import openke.data.TestDataLoader
-
-
+from openke.config import Trainer, Tester
+from openke.module.model import TransE
+from openke.module.loss import MarginLoss
+from openke.module.strategy import NegativeSampling
+from openke.data import TrainDataLoader, TestDataLoader
 
 # dataloader for training
 train_dataloader = TrainDataLoader(
