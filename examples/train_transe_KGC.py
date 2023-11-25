@@ -1,5 +1,7 @@
 import sys
-sys.path.append('..')
+import os
+curPath = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(curPath)
 import openke
 from openke.config import Trainer, Tester
 from openke.module.model import TransE
