@@ -29,7 +29,7 @@ train_dataloader = TrainDataLoader(
 transe = TransE(
 	ent_tot = train_dataloader.get_ent_tot(),
 	rel_tot = train_dataloader.get_rel_tot(),
-	dim = 1024,
+	dim = 768,
 	p_norm = 1,
 	norm_flag = True)
 
